@@ -1,6 +1,7 @@
 @font-face {
   font-family: 'Leorio';
   src: url('fonts/Leorio.ttf');
+  color: rgb(205, 232, 154);
 }
 
 body {
