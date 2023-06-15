@@ -11,8 +11,9 @@ body {
   }
 
   h1 {
-    color: rgb(255, 255, 255);
+    /* color: rgb(255, 255, 255); */
     font-family: 'tetrominoes', fallback, sans-serif;
+    src: url('fonts/tetrominoes.ttf');
   }
 
   main {
