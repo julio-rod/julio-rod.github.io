@@ -1,9 +1,15 @@
 @font-face {
-  font-family: 'Leorio';
-  src: url('fonts/Leorio.ttf');
+  font-family: 'tetrominoes';
+  src: url('fonts/tetrominoes.ttf');
 }
 
 body {
+
+  background-image: url('./fotos/foto.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; /* adjust as needed */
+
     font-family: 'Leorio', fallback, sans-serif;
     background-color: rgb(172, 197, 247);
     color: rgb(205, 232, 154);
@@ -13,7 +19,6 @@ body {
   h1 {
     /* color: rgb(255, 255, 255); */
     font-family: 'tetrominoes', fallback, sans-serif;
-    src: url('fonts/tetrominoes.ttf');
   }
 
   main {
@@ -23,7 +28,23 @@ body {
     height: calc(100vh - 30px);
 }
 
-  
+  #headshot {
+    width: 200px; /* adjust as needed */
+    height: 200px; /* adjust as needed */
+    position: absolute;
+    top: 10px; /* adjust as needed */
+    left: 10px; /* adjust as needed */
+  }
+
+  #bio {
+    position: absolute;
+    top: 220px; /* adjust as needed */
+    left: 10px; /* adjust as needed */
+    width: 180px; /* adjust as needed */
+  }
+
+
+
   nav ul {
     list-style-type: none;
     display: flex;
