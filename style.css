@@ -8,7 +8,7 @@ body {
   }
 
   h1 {
-    color: darkblue;
+    color: rgb(205, 232, 154);
   }
   
   nav ul {
@@ -27,8 +27,8 @@ body {
     position: fixed;
     bottom: 0;
     width: 100%;
-    background-color: darkblue;
-    color: white;
+    /* background-color: darkblue; */
+    color: rgb(205, 232, 154);
     text-align: center;
   }
   
