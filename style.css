@@ -1,6 +1,6 @@
 @font-face {
-  font-family: 'tetrominoes';
-  src: url('fonts//tetrominoes.ttf');
+  font-family: 'Cube';
+  src: url('fonts/Cube.ttf');
 }
 
 @font-face {
@@ -8,21 +8,37 @@
   src: url('fonts/Leorio.ttf');
 }
 
+@font-face {
+  font-family: 'SegaArcadeFont-Regular';
+  src: url('fonts/SegaArcadeFont-Regular.ttf');
+}
+
+body#home {
+  background-image: url('./fotos/homefoto.png');
+}
+/* body#portfolio {
+  background-image: url('./fotos/portfoliofoto.png');
+} */
+/* change later and add as many as you need */
+
+
 body {
   background-color: rgba(230, 234, 214, 0.834);
-  font-family: 'Leorio', fallback, sans-serif;
-  background-image: url('./fotos/foto.png');
+  font-family: 'SegaArcadeFont-Regular', fallback, sans-serif;
+  /* background-image: url('./fotos/foto.png'); */
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 200px 200px;
+  background-size: 400px 400px;
   color: rgb(78, 82, 91);
 }
 
 h1 {
-  font-family: 'tetrominoes', fallback, sans-serif;
+  font-size: 24px;
+  font-family: 'Cube', fallback, sans-serif;
 }
 
 main {
+  font-size: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -31,21 +47,24 @@ main {
 }
 
 #headshot {
-  width: 100px;
-  height: 100px;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
   position: absolute;
   top: 160px;
   left: 45px;
 }
 
 #bio {
+  font-size: 18px;
   position: absolute;
-  top: 220px;
-  left: 10px;
+  top: 250px;
+  left: 45px;
   width: 180px;
 }
 
 nav ul {
+  font-size: 16px;
   list-style-type: none;
   display: flex;
   justify-content: flex-end;
@@ -60,6 +79,6 @@ footer {
   position: fixed;
   bottom: 0;
   width: 100%;
-  color: rgb(232, 154, 154);
+  color: rgb(78, 82, 91);
   text-align: center;
 }
