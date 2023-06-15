@@ -11,7 +11,7 @@ body {
   background-image: url('./fotos/foto.png');
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 200px 200px;
   color: rgb(205, 232, 154);
 }
 
