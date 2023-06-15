@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Leorio';
-  src: url('fonts/Leorio.ttf,tetrominoes');
+  src: url('fonts/Leorio.ttf');
 }
 
 body {
@@ -11,7 +11,7 @@ body {
   }
 
   h1 {
-    color: rgb(205, 232, 154);
+    color: rgb(255, 255, 255);
     font-family: 'tetrominoes', fallback, sans-serif;
   }
 
