@@ -9,6 +9,7 @@
 }
 
 body {
+  background-color: rgb(172, 197, 247);
   font-family: 'Leorio', fallback, sans-serif;
   background-image: url('./fotos/foto.png');
   background-position: center;
