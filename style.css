@@ -2,10 +2,12 @@
   font-family: 'tetrominoes';
   src: url('fonts/tetrominoes.ttf');
 }
+
 @font-face {
   font-family: 'Leorio';
   src: url('fonts/Leorio.ttf');
 }
+
 body {
   font-family: 'Leorio', fallback, sans-serif;
   background-image: url('./fotos/foto.png');
@@ -15,54 +17,48 @@ body {
   color: rgb(205, 232, 154);
 }
 
-  h1 {
-    /* color: rgb(255, 255, 255); */
-    font-family: 'tetrominoes', fallback, sans-serif;
-  }
-
-  main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: calc(100vh - 30px);
-    padding-top: 250px;
+h1 {
+  font-family: 'tetrominoes', fallback, sans-serif;
 }
 
-  #headshot {
-    width: 50px; /* adjust as needed */
-    height: 50px; /* adjust as needed */
-    position: absolute;
-    top: 10px; /* adjust as needed */
-    left: 10px; /* adjust as needed */
-  }
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 30px);
+  padding-top: 250px;
+}
 
-  #bio {
-    position: absolute;
-    top: 220px; /* adjust as needed */
-    left: 10px; /* adjust as needed */
-    width: 180px; /* adjust as needed */
-  }
+#headshot {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
 
+#bio {
+  position: absolute;
+  top: 220px;
+  left: 10px;
+  width: 180px;
+}
 
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+  padding: 0;
+}
 
-  nav ul {
-    list-style-type: none;
-    display: flex;
-    justify-content: flex-end; 
-    padding: 0;
-  }
-  
-  nav ul li {
-    /* display: inline; */
-    margin: 0 20px;
-  }
-  
-  footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    /* background-color: darkblue; */
-    color: rgb(205, 232, 154);
-    text-align: center;
-  }
-  
+nav ul li {
+  margin: 0 20px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  color: rgb(205, 232, 154);
+  text-align: center;
+}
