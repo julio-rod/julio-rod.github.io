@@ -37,7 +37,7 @@ body#home {
 h1 {
   color: lime;
   background-color: transparent;
-  border-right: .15em solid lime; /* Cursor effect */
+  /* border-right: .15em solid lime; Cursor effect */
   font-family: 'FreePixel', fallback, sans-serif;
   font-size: 1.9vw;
   display: flex;
@@ -45,8 +45,8 @@ h1 {
   white-space: nowrap;
   overflow: hidden;
   width: 100%;
-  border-right: .15em solid rgba(99, 246, 41, 0.892);
-  animation: typing 4s steps(40, end), blink-caret .75s step-end infinite;
+  /* border-right: .15em solid rgba(99, 246, 41, 0.892); */
+  animation: typing 4s steps(40, end);
 }
 
 /* @keyframes marquee {
@@ -107,6 +107,55 @@ nav ul li {
   word-spacing: 3px;
   line-height: 1.6;
 }
+
+#user_directory_home {
+  font-size: 1.4vw;
+  display: flex;
+  justify-content: flex-start;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 100%;
+  border-right: .15em solid rgba(99, 246, 41, 0.892);
+  animation: typing 4s steps(40, end), blink-caret .75s step-end infinite;
+}
+
+#blog_main_page {
+  /* background-color: black; */
+  color: #63f629e3;
+  font-family: 'FreePixel';
+  font-size: 2.1vw;
+  display: flex;
+  justify-content: start;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: .15em solid rgba(99, 246, 41, 0.892);
+  animation: typing 4s steps(40, end), blink-caret .75s step-end infinite;
+}
+
+#typewriter {
+  /* background-color: black; */
+  color: #63f629e3;
+  font-family: 'FreePixel';
+  font-size: 4.7vw;
+  display: flex;
+  justify-content: center;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: .15em solid rgba(99, 246, 41, 0.892);
+  animation: typing 4s steps(40, end), blink-caret .75s step-end infinite;
+}
+
+#blog1_content {
+  margin: 0 auto;
+  font-size: 21px;
+  width: 100%;
+  max-width: 800px;
+  word-spacing: 3px;
+  line-height: 1.6;
+}
+
+
+
 
 footer {
   position: static;
