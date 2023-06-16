@@ -23,63 +23,30 @@
   src: url('fonts/FreePixel.ttf');
 }
 
-body#home {
-  background-image: url('./fotos/homefoto.png');
-}
-/* body#portfolio {
-  background-image: url('./fotos/portfoliofoto.png');
-} */
-/* change later and add as many as you need */
-
-
 body {
-  background-color: rgba(243, 244, 174, 0.643);
-  font-family: 'Leorio', fallback, sans-serif;
-  /* background-image: url('./fotos/foto.png'); */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 400px 400px;
-  color: rgba(179, 160, 160, 0.885);
+  background-color: rgb(13, 2, 58);
+  font-family: 'FreePixel', fallback, sans-serif;
+  color: lime;
+  padding: 1em;
+}
+
+body#home {
+  background-image: none;
 }
 
 h1 {
-  background-color: black;
-  color: #63f629e3;
+  color: lime;
+  background-color: transparent;
+  border-right: .15em solid lime; /* Cursor effect */
   font-family: 'FreePixel', fallback, sans-serif;
-  font-size: 4.3vw;
+  font-size: 1.5vw;
   display: flex;
   justify-content: center;
   white-space: nowrap;
   overflow: hidden;
-  border-right: .15em solid rgba(99, 246, 41, 0.892); /* Cursor effect */
+  border-right: .15em solid rgba(99, 246, 41, 0.892);
   animation: typing 4s steps(40, end), blink-caret .75s step-end infinite;
-}
 
-main {
-  font-size: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  /* height: calc(300vh - 10px); */
-  /* padding-top: 250px; */
-  width: 100%;
-  display: block;
-  max-width: 600px;
-  word-spacing: 3px;
-  line-height: 1.6;
-}
-
-#typewriter {
-  background-color: black;
-  color: #63f629e3;
-  font-family: 'FreePixel';
-  font-size: 4.7vw;
-  display: flex;
-  justify-content: center;
-  white-space: nowrap;
-  overflow: hidden;
-  border-right: .15em solid rgba(99, 246, 41, 0.892); /* Cursor effect */
-  animation: typing 4s steps(40, end), blink-caret .75s step-end infinite;
 }
 
 @keyframes typing {
@@ -92,16 +59,119 @@ main {
   50% { border-color: #63f629e3; }
 }
 
-#blog1_content {
-  margin: 0 auto;
-  font-size: 21px;
-  width: 100%; /* relative to the parent's width */
-  max-width: 800px;
+#nav {
+  top: 100px;
+  font-size: 1.3vw;
+  /* list-style-type: none;
+  display: flex;
+  justify-content: flex-start;
+  padding: 0; */
+}
+
+nav ul li {
+  margin: 0 15px;
+  color: lime;
+}
+
+#headshot {
+  display: none;
+}
+
+#bio {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
   word-spacing: 3px;
   line-height: 1.6;
 }
 
-#headshot {
+footer {
+  position: static;
+  bottom: 0;
+  width: 100%;
+  color: lime;
+  text-align: center;
+}
+
+
+/* body#home {
+  background-image: url('./fotos/homefoto.png');
+} */
+/* body#portfolio {
+  background-image: url('./fotos/portfoliofoto.png');
+} */
+/* change later and add as many as you need */
+
+
+/* body {
+  background-color: rgba(243, 244, 174, 0.643);
+  font-family: 'Leorio', fallback, sans-serif;
+  background-image: url('./fotos/foto.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 400px 400px;
+  color: rgba(179, 160, 160, 0.885);
+} */
+
+/* h1 {
+  background-color: black;
+  color: #63f629e3;
+  font-family: 'FreePixel', fallback, sans-serif;
+  font-size: 4.3vw;
+  display: flex;
+  justify-content: center;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: .15em solid rgba(99, 246, 41, 0.892);
+  animation: typing 4s steps(40, end), blink-caret .75s step-end infinite;
+} */
+
+/* main {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  display: block;
+  max-width: 600px;
+  word-spacing: 3px;
+  line-height: 1.6;
+} */
+
+/* #typewriter {
+  background-color: black;
+  color: #63f629e3;
+  font-family: 'FreePixel';
+  font-size: 4.7vw;
+  display: flex;
+  justify-content: center;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: .15em solid rgba(99, 246, 41, 0.892);
+  animation: typing 4s steps(40, end), blink-caret .75s step-end infinite;
+} */
+
+/* @keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent; }
+  50% { border-color: #63f629e3; }
+} */
+
+/* #blog1_content {
+  margin: 0 auto;
+  font-size: 21px;
+  width: 100%;
+  max-width: 800px;
+  word-spacing: 3px;
+  line-height: 1.6;
+} */
+
+/* #headshot {
   border-radius: 50%;
   width: 268px;
   height: 268px;
@@ -138,4 +208,4 @@ footer {
   width: 100%;
   color: rgb(78, 82, 91);
   text-align: center;
-}
+} */
