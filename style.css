@@ -19,8 +19,8 @@
 }
 
 @font-face {
-  font-family: 'blockaddicted';
-  src: url('fonts/blockaddicted.otf');
+  font-family: 'FreePixel';
+  src: url('fonts/FreePixel.ttf');
 }
 
 body#home {
@@ -33,18 +33,26 @@ body#home {
 
 
 body {
-  background-color: rgba(230, 234, 214, 0.834);
+  background-color: rgba(243, 244, 174, 0.643);
   font-family: 'Leorio', fallback, sans-serif;
   /* background-image: url('./fotos/foto.png'); */
   background-position: center;
   background-repeat: no-repeat;
   background-size: 400px 400px;
-  color: rgb(78, 82, 91);
+  color: rgba(179, 160, 160, 0.885);
 }
 
 h1 {
-  font-size: 2.6em;
-  font-family: 'blockaddicted', fallback, sans-serif;
+  background-color: black;
+  color: #63f629e3;
+  font-family: 'FreePixel', fallback, sans-serif;
+  font-size: 4.3vw;
+  display: flex;
+  justify-content: center;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: .15em solid rgba(99, 246, 41, 0.892); /* Cursor effect */
+  animation: typing 4s steps(40, end), blink-caret .75s step-end infinite;
 }
 
 main {
@@ -62,8 +70,10 @@ main {
 }
 
 #typewriter {
-  font-family: 'SegaArcadeFont-Regular';
-  font-size: 6vw;
+  background-color: black;
+  color: #63f629e3;
+  font-family: 'FreePixel';
+  font-size: 4.7vw;
   display: flex;
   justify-content: center;
   white-space: nowrap;
@@ -79,7 +89,7 @@ main {
 
 @keyframes blink-caret {
   from, to { border-color: transparent; }
-  50% { border-color: rgb(99, 246, 41, 0.892); }
+  50% { border-color: #63f629e3; }
 }
 
 #blog1_content {
