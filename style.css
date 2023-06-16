@@ -18,6 +18,11 @@
   src: url('fonts/SegaArcadeFont-Regular.ttf');
 }
 
+@font-face {
+  font-family: 'blockaddicted';
+  src: url('fonts/blockaddicted.otf');
+}
+
 body#home {
   background-image: url('./fotos/homefoto.png');
 }
@@ -38,8 +43,8 @@ body {
 }
 
 h1 {
-  font-size: 79.3px;
-  font-family: 'ElectroMan', fallback, sans-serif;
+  font-size: 2.6em;
+  font-family: 'blockaddicted', fallback, sans-serif;
 }
 
 main {
@@ -47,8 +52,41 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: calc(40vh - 10px);
-  padding-top: 250px;
+  /* height: calc(300vh - 10px); */
+  /* padding-top: 250px; */
+  width: 100%;
+  display: block;
+  max-width: 600px;
+  word-spacing: 3px;
+  line-height: 1.6;
+}
+
+#typewriter {
+  font-family: 'SegaArcadeFont-Regular';
+  font-size: 6vw;
+  display: flex;
+  justify-content: center;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: .15em solid rgba(99, 246, 41, 0.892); /* Cursor effect */
+  animation: typing 4s steps(40, end), blink-caret .75s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent; }
+  50% { border-color: rgb(99, 246, 41, 0.892); }
+}
+
+#blog1_content {
+  margin: 0 auto;
+  font-size: 21px;
+  width: 100%; /* relative to the parent's width */
+  max-width: 800px;
   word-spacing: 3px;
   line-height: 1.6;
 }
@@ -81,7 +119,7 @@ nav ul {
 }
 
 nav ul li {
-  margin: 0 50px;
+  margin: 0 15px;
 }
 
 footer {
