@@ -22,6 +22,10 @@
   font-family: 'FreePixel';
   src: url('fonts/FreePixel.ttf');
 }
+@font-face {
+  font-family: 'Louis George Cafe Bold';
+  src: url('fonts/Louis\ George\ Cafe\ Bold.ttf');
+}
 /* #################################################################################### */
 body {
   background-color: rgb(13, 2, 58);
@@ -34,12 +38,40 @@ body#home {
   background-image: none;
 }
 /* #################################################################################### */
-#h1 {
+#home_page_head1 {
   color: lime;
-  background-color: transparent;
+  /* background-color: transparent; */
   /* border-right: .15em solid lime; Cursor effect */
   font-family: 'FreePixel', fallback, sans-serif;
-  font-size: 1.9vw;
+  font-size: 2.2vw;
+  display: flex;
+  justify-content: flex-start;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 100%;
+  /* border-right: .15em solid rgba(99, 246, 41, 0.892); */
+  animation: typing 4s steps(40, end);
+}
+#home_page_head2 {
+  color: lime;
+  /* background-color: transparent; */
+  /* border-right: .15em solid lime; Cursor effect */
+  font-family: 'FreePixel', fallback, sans-serif;
+  font-size: 2.2vw;
+  display: flex;
+  justify-content: flex-start;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 100%;
+  /* border-right: .15em solid rgba(99, 246, 41, 0.892); */
+  animation: typing 4s steps(40, end);
+}
+#home_page_head3 {
+  color: lime;
+  /* background-color: transparent; */
+  /* border-right: .15em solid lime; Cursor effect */
+  font-family: 'FreePixel', fallback, sans-serif;
+  font-size: 2.2vw;
   display: flex;
   justify-content: flex-start;
   white-space: nowrap;
@@ -68,7 +100,7 @@ body#home {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 81vh; /* adjust this value as needed */
+  height: 73vh; /* adjust this value as needed */
   text-align: center;
   padding: 0 15px; /* give some room on the left and right */
 }
@@ -114,16 +146,16 @@ nav ul li {
   justify-content: flex-start;
   white-space: nowrap;
   overflow: hidden;
-  width: 100%;
-  border-right: .15em solid lime;
+  width: 41.3%;
+  border-right: .40em solid lime;
   animation: typing 4s steps(40, end), blink-caret .75s step-end infinite;
 }
 /* #################################################################################### */
 #blog_main_page {
   /* background-color: black; */
   color: lime;
-  font-family: 'FreePixel';
-  font-size: 2.1vw;
+  font-family: 'Louis George Cafe Bold';
+  font-size: 2.2vw;
   display: flex;
   justify-content: start;
   white-space: nowrap;
@@ -136,7 +168,7 @@ nav ul li {
   display: flex;
   align-items: first baseline;
   justify-content: flex-start; /* aligns horizontally to the left */
-  height: 85vh; /* takes up the full height of the viewport */
+  height: 81vh; /* takes up the full height of the viewport */
   padding-left: 50px; /* adjust as needed to move text away from the edge */
 }
 
@@ -175,20 +207,35 @@ nav ul li {
   word-spacing: 3px;
   line-height: 1.6;
 }
-/* #################################################################################### */
-#portfolio_main_page{
+#user_directory_blog {
+  font-size: 1.7vw;
   display: flex;
-  align-items: first baseline;
-  justify-content: flex-start; /* aligns horizontally to the left */
-  height: 85vh; /* takes up the full height of the viewport */
-  padding-left: 50px; /* adjust as needed to move text away from the edge */
+  justify-content: flex-start;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 46.6%;
+  border-right: .40em solid lime;
+  animation: typing 4s steps(40, end), blink-caret .75s step-end infinite;
+}
+/* #################################################################################### */
+#portfolio_main_page {
+  /* background-color: black; */
+  color: lime;
+  font-family: 'Louis George Cafe Bold';
+  font-size: 2vw;
+  display: flex;
+  justify-content: start;
+  /* white-space: nowrap; */
+  overflow: hidden;
+  /* border-right: .15em solid rgba(99, 246, 41, 0.892); */
+  animation: typing 4s steps(40, end);
 }
 
 #portfolio_main_links {
   display: flex;
   align-items: first baseline;
   justify-content: flex-start; /* aligns horizontally to the left */
-  height: 85vh; /* takes up the full height of the viewport */
+  height: 81vh; /* takes up the full height of the viewport */
   padding-left: 50px; /* adjust as needed to move text away from the edge */
 }
 
@@ -198,6 +245,16 @@ nav ul li {
 
 .portfolio_link_color:visited {
   color: #29b9f6e3; /* replace with the color you want */
+}
+#user_directory_portfolio {
+  font-size: 1.7vw;
+  display: flex;
+  justify-content: flex-start;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 52%;
+  border-right: .40em solid lime;
+  animation: typing 4s steps(40, end), blink-caret .75s step-end infinite;
 }
 
 
