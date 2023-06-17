@@ -34,7 +34,7 @@ body#home {
   background-image: none;
 }
 /* #################################################################################### */
-h1 {
+#h1 {
   color: lime;
   background-color: transparent;
   /* border-right: .15em solid lime; Cursor effect */
@@ -109,7 +109,7 @@ nav ul li {
 }
 
 #user_directory_home {
-  font-size: 1.4vw;
+  font-size: 1.7vw;
   display: flex;
   justify-content: flex-start;
   white-space: nowrap;
@@ -155,7 +155,7 @@ nav ul li {
 #blog1_title {
   background-color:rgba(255, 204, 204, 0.686);
   color: black;
-  font-family: '';
+  font-family: 'sans-serif';
   font-size: 4.7vw;
   display: flex;
   justify-content: center;
@@ -167,7 +167,7 @@ nav ul li {
 
 #blog1_content {
   color:black;
-  font-family: '';
+  font-family: 'sans-serif';
   margin: 0 auto;
   font-size: 21px;
   width: 100%;
