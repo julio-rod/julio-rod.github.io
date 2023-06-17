@@ -22,7 +22,7 @@
   font-family: 'FreePixel';
   src: url('fonts/FreePixel.ttf');
 }
-
+/* #################################################################################### */
 body {
   background-color: rgb(13, 2, 58);
   font-family: 'FreePixel', fallback, sans-serif;
@@ -33,7 +33,7 @@ body {
 body#home {
   background-image: none;
 }
-
+/* #################################################################################### */
 h1 {
   color: lime;
   background-color: transparent;
@@ -118,7 +118,7 @@ nav ul li {
   border-right: .15em solid lime;
   animation: typing 4s steps(40, end), blink-caret .75s step-end infinite;
 }
-
+/* #################################################################################### */
 #blog_main_page {
   /* background-color: black; */
   color: lime;
@@ -175,10 +175,33 @@ nav ul li {
   word-spacing: 3px;
   line-height: 1.6;
 }
+/* #################################################################################### */
+#portfolio_main_page{
+  display: flex;
+  align-items: first baseline;
+  justify-content: flex-start; /* aligns horizontally to the left */
+  height: 85vh; /* takes up the full height of the viewport */
+  padding-left: 50px; /* adjust as needed to move text away from the edge */
+}
+
+#portfolio_main_links {
+  display: flex;
+  align-items: first baseline;
+  justify-content: flex-start; /* aligns horizontally to the left */
+  height: 85vh; /* takes up the full height of the viewport */
+  padding-left: 50px; /* adjust as needed to move text away from the edge */
+}
+
+.portfolio_link_color {
+  color: #ffe5ff; /* replace with the color you want */
+}
+
+.portfolio_link_color:visited {
+  color: #29b9f6e3; /* replace with the color you want */
+}
 
 
-
-
+/* #################################################################################### */
 footer {
   position: static;
   bottom: 0;
@@ -187,6 +210,7 @@ footer {
   text-align: center;
 }
 
+/* #################################################################################### */
 
 /* body#home {
   background-image: url('./fotos/homefoto.png');
