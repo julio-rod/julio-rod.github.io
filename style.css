@@ -213,7 +213,7 @@ nav ul li {
 #blog1_content {
   color:black;
   font-family: 'sans-serif';
-  margin: 0 auto;
+  margin: 10% auto;
   font-size: 21px;
   width: 100%;
   max-width: 800px;
@@ -234,8 +234,8 @@ nav ul li {
 #portfolio_main_page {
   /* background-color: black; */
   color: lime;
-  font-family: 'Louis George Cafe Bold';
-  font-size: 2vw;
+  font-family: monospace;
+  font-size: 2.7vw;
   display: flex;
   justify-content: start;
   /* white-space: nowrap; */
@@ -250,6 +250,7 @@ nav ul li {
   justify-content: flex-start; /* aligns horizontally to the left */
   height: 81vh; /* takes up the full height of the viewport */
   padding-left: 50px; /* adjust as needed to move text away from the edge */
+  margin: 10%;
 }
 
 .portfolio_link_color {
@@ -259,7 +260,7 @@ nav ul li {
 .portfolio_link_color:visited {
   color: #29b9f6e3; /* replace with the color you want */
 }
-#portfolio_nav {
+/* #portfolio_nav {
   font-size: 2vw;
   line-height: 1.9;
   white-space: pre-line;
@@ -270,16 +271,36 @@ nav ul li {
   display: flex;
   justify-content: flex-start;
   padding: 0;
+} */
+#portfolio_nav {
+  font-family: monospace;
+  font-size: 2vw;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;  /* you can adjust this as needed */
+  margin: 0 auto;  /* centers the columns horizontally */
+}
+#portfolio_nav .column {
+  display: flex;
+  flex-direction: column;
+  width:80%;  /* you can adjust this as needed */
+}
+#portfolio_column {
+  font-size: 3vw;
+}
+#project_column {
+  font-size: 3vw;
 }
 #user_directory_portfolio {
-  font-size: 1.7vw;
+  font-size: 2vw;
   display: flex;
   justify-content: flex-start;
   white-space: nowrap;
   overflow: hidden;
-  width: 56%;
+  width: 67%;
   border-right: .40em solid lime;
   animation: typing 4s steps(40, end), blink-caret .75s step-end infinite;
+  margin-top: -20%;
 }
 
 
